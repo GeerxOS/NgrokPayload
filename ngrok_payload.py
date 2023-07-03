@@ -1,7 +1,7 @@
 import os
 from colorama import *
 
-token = "254y3AS7gjeBemxhwn5ZJHvf4O1_4xntGF5jmppgAEYaub55r"
+token = "your ngrok token"
 
 def ngrok_payload():
     os.system("clear")
